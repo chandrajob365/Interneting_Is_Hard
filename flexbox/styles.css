@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-container {
+  color: #fff;
+  background-color: #5995DA;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login {
+  margin-left: 20px;
+}
+
+.signup {
+  margin-left: auto;
+}
+
+.header-container {
+  color: #5995DA;
+  background-color: #D6E9FE;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  height: 30%;
+}
+
+.header {
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social,
+.subscribe {
+  align-self: flex-end;
+  margin-bottom: 1px;
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+
+  /* align-items: center; This is required to center content when flex-flow is column . Default value of flex-flow is row*/
+}
+
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
+}
+
+.first-item {
+  order: 1;
+}
+
+.last-item {
+  order: -1;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-item{
+  border: 1px solid #fff;
+  background-color: #5995DA;
+  height: 200px;
+  flex: 1;
+}
+
+.footer-two {
+  background-color: #D6E9FE;
+  flex: 2;
+}
